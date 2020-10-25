@@ -1,5 +1,5 @@
 print('Lista zakupów')
-lista_zakupow = {'piekarnia' : ['chleb', 'bułki', 'pączek'], 'warzywniak' : ['marchew', 'seler', 'rukola']}
+lista_zakupow = {'piekarnia' : ['chleb', 'bułki', 'pączek'], 'warzywniak' : ['marchew', 'seler', 'rukola'], 'apteka' : ['Ibuprom', 'maseczki', "APAP"]}
 for store_name,products in lista_zakupow.items():
     store_name_capitalize = store_name.capitalize()
     capitalized_products = []
