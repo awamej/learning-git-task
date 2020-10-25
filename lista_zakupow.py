@@ -7,3 +7,5 @@ for store_name,products in lista_zakupow.items():
         capitalized_products.append(i.capitalize())
     products_to_print = ', '.join(capitalized_products)
     print("Idę do "+ store_name_capitalize +" i kupuję tam: " + products_to_print)
+x = len(lista_zakupow['piekarnia']) + len(lista_zakupow['warzywniak'])
+print("W sumie kupuję " + str(x) + " produktów.")
